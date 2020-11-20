@@ -6,25 +6,26 @@ import { FormsModule } from "@angular/forms";
 
 import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
-import { TopBarComponent } from './top-bar/top-bar.component';
-import { LoginComponent } from './login/login.component';
-import { HomeComponent } from './home/home.component';
+import { TopBarComponent } from "./top-bar/top-bar.component";
+import { LoginComponent } from "./login/login.component";
+import { HomeComponent } from "./home/home.component";
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
     RouterModule.forRoot([
-      { path: '', component: HomeComponent },
-      { path: "products/:productId", component: LoginComponent },
+      { path: "", component: HomeComponent },
+      { path: "login", component: LoginComponent },
+      { path: "products/:productId", component: LoginComponent }
     ])
   ],
   declarations: [
-    AppComponent, 
-    HelloComponent, 
-    TopBarComponent, 
-    LoginComponent, 
-    HomeComponent,
+    AppComponent,
+    HelloComponent,
+    TopBarComponent,
+    LoginComponent,
+    HomeComponent
   ],
   bootstrap: [AppComponent]
 })
