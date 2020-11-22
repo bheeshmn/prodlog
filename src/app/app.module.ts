@@ -22,10 +22,10 @@ import { HomeComponent } from "./home/home.component";
   ],
   declarations: [
     AppComponent,
-    HelloComponent,
+    HomeComponent,
     TopBarComponent,
     LoginComponent,
-    HomeComponent
+    HelloComponent,
   ],
   bootstrap: [AppComponent]
 })
