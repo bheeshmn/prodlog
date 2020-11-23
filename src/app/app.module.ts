@@ -25,7 +25,7 @@ import { HomeComponent } from "./home/home.component";
     HomeComponent,
     TopBarComponent,
     LoginComponent,
-    HelloComponent,
+    HelloComponent
   ],
   bootstrap: [AppComponent]
 })
